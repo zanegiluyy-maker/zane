@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zane Dev | Archive</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root { --red: #ff3c3c; --bg: #080808; --card: #121212; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body { 
+            background: var(--bg); color: #fff; 
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            display: flex; justify-content: center; align-items: center;
+            min-height: 100vh; padding: 20px; overflow-x: hidden;
+        }
+
+        .bento-grid {
+            display: grid; grid-template-columns: repeat(2, 1fr);
+            gap: 15px; width: 100%; max-width: 450px;
+        }
+
+        .box {
+            background: var(--card); border: 1px solid #222;
+            border-radius: 24px; padding: 20px; transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative; overflow: hidden; text-decoration: none; color: #fff;
+        }
+
+        .box:hover { border-color: var(--red); transform: translateY(-5px); background: #181818; }
+
+        /* Profile Section */
+        .profile-box { grid-column: span 2; text-align: center; }
+        .avatar { width: 90px; height: 90px; border-radius: 50%; border: 3px solid var(--red); margin-bottom: 12px; }
+        h1 { font-weight: 800; font-size: 28px; letter-spacing: -1px; }
+        .role-tag { font-family: 'JetBrains Mono', monospace; color: var(--red); font-size: 11px; font-weight: bold; margin-bottom: 5px; display: block; }
+
+        /* Counter Section */
+        .count-box { grid-column: span 1; text-align: center; }
+        .count-num { font-size: 36px; font-weight: 800; color: var(--red); display: block; }
+        .count-label { font-size: 10px; color: #666; font-weight: bold; text-transform: uppercase; }
+
+        /* About Section */
+        .about-box { grid-column: span 2; border-left: 4px solid var(--red); }
+        .about-box p { font-size: 13px; line-height: 1.6; color: #ccc; }
+
+        /* Social/Link Items */
+        .link-box { grid-column: span 1; display: flex; flex-direction: column; align-items: center; gap: 8px; font-weight: bold; font-size: 13px; }
+        .link-box i { font-size: 24px; }
+        .wa-owner { color: #25d366; } .wa-bot { color: #6c5ce7; }
+        
+        .full-btn { 
+            grid-column: span 2; background: var(--red); color: #000; 
+            display: flex; justify-content: space-between; align-items: center; 
+            font-weight: 800; font-size: 14px; text-transform: uppercase;
+        }
+
+        /* Hover Effect Details */
+        .box::after {
+            content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(circle at var(--x) var(--y), rgba(255,60,60,0.15) 0%, transparent 80%);
+            opacity: 0; transition: opacity 0.3s; pointer-events: none;
+        }
+        .box:hover::after { opacity: 1; }
+    </style>
+</head>
+<body>
+
+    <div class="bento-grid">
+        <div class="box profile-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT11QsRFWkjftM876qo2xrwslAs1iPAoxeSXA&s" alt="Zane" class="avatar">
+            <span class="role-tag">PROMPT ENGINEER // JUNIOR DEV</span>
+            <h1>ZANE DEV</h1>
+        </div>
+
+        <div class="box count-box">
+            <span class="count-num" id="fitur-count">0</span>
+            <span class="count-label">Total Fitur Bot</span>
+        </div>
+
+        <div class="box count-box">
+            <span class="count-num" id="exp-count">0</span>
+            <span class="count-label">Total Users</span>
+        </div>
+
+        <div class="box about-box">
+            <p>
+                Gue <b>Zane</b>, Junior Developer & Prompt Engineer yang suka ngulik otomasi. Fokus bangun ekosistem bot yang stabil dan efisien. 😼
+            </p>
+            <p style="margin-top: 10px; font-size: 12px; color: #888;">
+                Gapapa di bilang kroco, Dari pada di bilang sepuh tapi sc ngambil dari orang lain 😼
+            </p>
+        </div>
+
+        <a href="https://wa.me/6281318668870?text=Halo+Zane" class="box link-box wa-owner">
+            <i class="fab fa-whatsapp"></i> OWNER
+        </a>
+        <a href="https://wa.me/6281318668870?text=!allmenu" class="box link-box wa-bot">
+            <i class="fas fa-robot"></i> ZANE BOT
+        </a>
+
+        <a href="https://www.tiktok.com/@princez4ne" class="box link-box">
+            <i class="fab fa-tiktok"></i> TIKTOK
+        </a>
+        <a href="https://github.com/zanegiluyy-maker" class="box link-box">
+            <i class="fab fa-github"></i> GITHUB
+        </a>
+
+        <a href="https://whatsapp.com/channel/0029VbBe2Xt1t90gnNzfxc1F" class="box full-btn">
+            <span><i class="fas fa-bullhorn"></i> Join Saluran</span>
+            <i class="fas fa-arrow-right"></i>
+        </a>
+
+        <div style="grid-column: span 2; text-align: center; font-size: 9px; color: #444; letter-spacing: 2px;">
+            AUTHORIZED BY ZANE © 2026
+        </div>
+    </div>
+
+    <script>
+        // Animasi Angka Berjalan
+        function animateCount(id, target, speed) {
+            let current = 0;
+            const element = document.getElementById(id);
+            const step = Math.ceil(target / 50);
+            const timer = setInterval(() => {
+                current += step;
+                if (current >= target) {
+                    element.innerText = target;
+                    clearInterval(timer);
+                } else {
+                    element.innerText = current;
+                }
+            }, speed);
+        }
+
+        // Jalankan animasi pas loading
+        window.onload = () => {
+            animateCount('fitur-count', 245, 30);
+            animateCount('exp-count', 500, 100);
+        };
+
+        // Efek Hover Mouse (Lampu Senter di Kartu)
+        document.querySelectorAll('.box').forEach(box => {
+            box.addEventListener('mousemove', e => {
+                const rect = box.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                box.style.setProperty('--x', `${x}px`);
+                box.style.setProperty('--y', `${y}px`);
+            });
+        });
+    </script>
+</body>
+</html>
