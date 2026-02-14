@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zane Archive | Prestige</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #050505; color: #fff; font-family: 'Space Grotesk', sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+        
+        .container { 
+            max-width: 450px; 
+            width: 100%; 
+            display: grid; 
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 12px; 
+        }
+
+        .box { background: #111; border: 1px solid #222; border-radius: 20px; padding: 18px; transition: 0.3s; text-decoration: none; color: #fff; }
+        .box:hover { border-color: #ff4d4d; background: #161616; transform: translateY(-3px); }
+
+        /* Profile Section */
+        .profile-box { grid-column: span 2; text-align: center; }
+        .profile-box img { width: 85px; height: 85px; border-radius: 50%; border: 2px solid #ff4d4d; margin-bottom: 10px; padding: 3px; }
+        h1 { font-family: 'Syne', sans-serif; font-size: 26px; letter-spacing: -1px; }
+        .tag { font-size: 10px; color: #ff4d4d; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; }
+
+        /* About Section (Bagusin Lagi) */
+        .about-box { grid-column: span 2; font-size: 13px; line-height: 1.6; color: #ccc; border-left: 4px solid #ff4d4d; }
+        .about-box b { color: #fff; font-size: 14px; display: block; margin-bottom: 5px; }
+
+        /* Social Link (TikTok & GitHub) */
+        .social-btn { display: flex; align-items: center; justify-content: center; gap: 10px; font-weight: bold; font-size: 13px; }
+        .btn-tiktok { grid-column: span 1; background: #fff; color: #000; }
+        .btn-github { grid-column: span 1; background: #24292e; color: #fff; border: 1px solid #444; }
+
+        /* WhatsApp Section */
+        .wa-btn { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; font-weight: bold; font-size: 12px; }
+        .wa-owner { grid-column: span 1; border: 1px solid #25d366; color: #25d366; }
+        .wa-bot { grid-column: span 1; border: 1px solid #6c5ce7; color: #a29bfe; }
+
+        /* Skills Section (Full Width) */
+        .skills-box { grid-column: span 2; }
+        .skills-box h3 { font-size: 13px; color: #ff4d4d; margin-bottom: 10px; text-transform: uppercase; text-align: center; }
+        .skill-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+        .skill-tag { font-size: 11px; background: #1a1a1a; padding: 5px 12px; border-radius: 10px; border: 1px solid #333; }
+
+        /* Saluran (Newsletter) */
+        .channel-box { grid-column: span 2; background: #ff4d4d; color: #000; display: flex; justify-content: space-between; align-items: center; font-weight: 800; text-transform: uppercase; font-size: 14px; }
+
+        .footer { grid-column: span 2; text-align: center; font-size: 9px; color: #444; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box profile-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT11QsRFWkjftM876qo2xrwslAs1iPAoxeSXA&s" alt="Zane">
+            <p class="tag">Main Developer</p>
+            <h1>ZANE DEV</h1>
+        </div>
+
+        <div class="box about-box">
+            <b>IDENTITY ARCHIVE</b>
+            Seorang Junior Developer yang hanya ingin hidup bahagia bersama hutao wkwk, join saluran dan follow tiktok gw buat dapet info terbaru ya! 😼
+        </div>
+
+        <a href="https://www.tiktok.com/@princez4ne" class="box social-btn btn-tiktok">
+            <i class="fab fa-tiktok"></i> TikTok
+        </a>
+        <a href="https://github.com/zanegiluyy-maker" class="box social-btn btn-github">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+
+        <a href="https://wa.me/6281318668870?text=Halo+Zane" class="box wa-btn wa-owner">
+            <i class="fab fa-whatsapp" style="font-size: 20px;"></i>
+            <span>OWNER</span>
+        </a>
+        <a href="https://wa.me/6281318668870?text=!allmenu" class="box wa-btn wa-bot">
+            <i class="fas fa-robot" style="font-size: 20px;"></i>
+            <span>NOMER BOT</span>
+        </a>
+
+        <div class="box skills-box">
+            <h3>Current Skillset</h3>
+            <div class="skill-list">
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">NodeJS</span>
+                <span class="skill-tag">Web Design</span>
+                <span class="skill-tag">Bot Automation</span>
+                <span class="skill-tag">API Integrations</span>
+            </div>
+        </div>
+
+        <a href="https://whatsapp.com/channel/0029VbBe2Xt1t90gnNzfxc1F" class="box channel-box">
+            <span><i class="fas fa-bullhorn"></i> Join Saluran</span>
+            <i class="fas fa-chevron-right"></i>
+        </a>
+
+        <div class="footer">
+            AUTHORIZED BY ZANE — 2026
+        </div>
+    </div>
+
+</body>
+</html>
