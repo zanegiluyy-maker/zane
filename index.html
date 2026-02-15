@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zane Dev | Archive</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root { --red: #ff3c3c; --bg: #080808; --card: #121212; --text: #fff; }
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        
+        body { 
+            background: var(--bg); color: var(--text); 
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            display: flex; justify-content: center; align-items: center;
+            min-height: 100vh; padding: 20px; overflow-x: hidden;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        body.light-mode { --bg: #f4f4f4; --card: #ffffff; --text: #111; }
+
+        .container { width: 100%; max-width: 450px; }
+
+        /* TAB NAVIGATION */
+        .tab-menu {
+            display: flex; gap: 10px; margin-bottom: 20px;
+            background: var(--card); padding: 8px; border-radius: 50px;
+            border: 1px solid #222;
+        }
+        body.light-mode .tab-menu { border-color: #ddd; }
+        
+        .tab-btn {
+            flex: 1; padding: 10px; border-radius: 40px; border: none;
+            background: transparent; color: #666; font-weight: bold;
+            cursor: pointer; transition: 0.3s; font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .tab-btn.active { background: var(--red); color: #fff; }
+
+        .bento-grid {
+            display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;
+        }
+
+        /* TAB LOGIC */
+        .tab-content { display: none; animation: fadeIn 0.5s ease; }
+        .tab-content.active { display: grid; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .box {
+            background: var(--card); border: 1px solid #222;
+            border-radius: 24px; padding: 20px; transition: 0.3s;
+            position: relative; overflow: hidden; text-decoration: none; color: inherit;
+        }
+        body.light-mode .box { border-color: #ddd; }
+        .box:hover { border-color: var(--red); transform: translateY(-5px); }
+
+        .profile-box { grid-column: span 2; text-align: center; }
+        .avatar { width: 80px; height: 80px; border-radius: 50%; border: 3px solid var(--red); margin-bottom: 12px; }
+        h1 { font-weight: 800; font-size: 24px; letter-spacing: -1px; }
+
+        .count-num { font-size: 28px; font-weight: 800; color: var(--red); display: block; }
+        .count-label { font-size: 10px; color: #666; font-weight: bold; text-transform: uppercase; }
+
+        .full-btn { 
+            grid-column: span 2; background: var(--red); color: #000; 
+            display: flex; justify-content: space-between; align-items: center; 
+            font-weight: 800; font-size: 13px; text-transform: uppercase; padding: 15px 20px;
+        }
+
+        #mode-toggle {
+            position: fixed; bottom: 20px; right: 20px; z-index: 1000; 
+            width: 50px; height: 50px; border-radius: 50%; cursor: pointer;
+            background: var(--red); color: white; border: none;
+            font-size: 20px; box-shadow: 0 4px 15px rgba(255, 60, 60, 0.4);
+        }
+
+        .box::after {
+            content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(circle at var(--x) var(--y), rgba(255,60,60,0.15) 0%, transparent 80%);
+            opacity: 0; transition: opacity 0.3s; pointer-events: none;
+        }
+        .box:hover::after { opacity: 1; }
+    </style>
+</head>
+<body>
+
+    <button id="mode-toggle" title="Ganti Mode">🌙</button>  
+
+    <div class="container">
+        <div class="box profile-box" style="margin-bottom: 15px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT11QsRFWkjftM876qo2xrwslAs1iPAoxeSXA&s" alt="Zane" class="avatar">
+            <h1>ZANE DEV</h1>
+            <p style="font-size: 13px; margin-top: 5px; opacity: 0.8;">I'm a <span id="typing-text" style="color: var(--red); font-weight: bold;"></span></p>
+        </div>
+
+        <div class="tab-menu">
+            <button class="tab-btn active" onclick="openTab(event, 'home')">Main</button>
+            <button class="tab-btn" onclick="openTab(event, 'stats')">Bot Stats</button>
+            <button class="tab-btn" onclick="openTab(event, 'links')">Links</button>
+        </div>
+
+        <div id="home" class="tab-content active bento-grid">
+            <div class="box count-box">
+                <span id="jam-zane" style="font-family: 'JetBrains Mono', monospace; font-size: 20px; color: var(--red); font-weight: bold;">00:00:00</span>
+                <span class="count-label">Waktu Lokal</span>
+            </div>
+            <div class="box count-box">
+                <span class="count-num">86%</span>
+                <span class="count-label">Status Bot</span>
+            </div>
+            <div class="box" style="grid-column: span 2; border-left: 4px solid var(--red);">
+                <p style="font-size: 13px; line-height: 1.6;">Junior Developer & Prompt Engineer. Fokus bangun ekosistem bot yang gak cuma kenceng, tapi juga punya "otak" sendiri. 😼</p>
+            </div>
+        </div>
+
+        <div id="stats" class="tab-content bento-grid">
+            <div class="box count-box" style="grid-column: span 2;">
+                <span class="count-num" id="user-count">0</span>
+                <span class="count-label">Total Users Served</span>
+            </div>
+            <div class="box">
+                <span class="count-num">24/7</span>
+                <span class="count-label">Uptime</span>
+            </div>
+            <div class="box">
+                <span class="count-num">v3.0</span>
+                <span class="count-label">Version</span>
+            </div>
+            <div class="box" style="grid-column: span 2; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #888;">
+                > Owner: Zane DEV<br>
+                > Node: v20<br>
+                > Lib: Baileys-Whiskeysockets
+            </div>
+        </div>
+
+        <div id="links" class="tab-content bento-grid">
+            <a href="https://wa.me/6281318668870" class="box link-box wa-owner"><i class="fab fa-whatsapp"></i> OWNER</a>
+            <a href="https://wa.me/6281318668870" class="box link-box wa-bot"><i class="fas fa-robot"></i> BOT</a>
+            <a href="https://www.tiktok.com/@princez4ne" class="box link-box"><i class="fab fa-tiktok"></i> TIKTOK</a>
+            <a href="https://github.com/zanegiluyy-maker" class="box link-box"><i class="fab fa-github"></i> GITHUB</a>
+            <a href="https://whatsapp.com/channel/0029VbBe2Xt1t90gnNzfxc1F" class="box full-btn">
+                <span><i class="fas fa-bullhorn"></i> Saluran WA</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+
+        <p style="text-align: center; font-size: 10px; color: #666; letter-spacing: 2px; margin-top: 30px;">STRICTLY PROTECTED BY ZANE © 2026</p>
+    </div>
+
+    <script>
+        // TAB LOGIC
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) { tabcontent[i].classList.remove("active"); }
+            tablinks = document.getElementsByClassName("tab-btn");
+            for (i = 0; i < tablinks.length; i++) { tablinks[i].classList.remove("active"); }
+            document.getElementById(tabName).classList.add("active");
+            evt.currentTarget.classList.add("active");
+            
+            // Re-trigger counter animation if opening stats tab
+            if(tabName === 'stats') { animateCount('user-count', 1200); }
+        }
+
+        // TYPEWRITER
+        const textElement = document.getElementById('typing-text');
+        const phrases = ["Junior Developer", "Prompt Engineer"];
+        let phraseIndex = 0; let charIndex = 0;
+        function type() {
+            if (charIndex < phrases[phraseIndex].length) {
+                textElement.innerHTML += phrases[phraseIndex].charAt(charIndex);
+                charIndex++; setTimeout(type, 100);
+            } else { setTimeout(erase, 2000); }
+        }
+        function erase() {
+            if (charIndex > 0) {
+                textElement.innerHTML = phrases[phraseIndex].substring(0, charIndex - 1);
+                charIndex--; setTimeout(erase, 50);
+            } else {
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+                setTimeout(type, 500);
+            }
+        }
+
+        // DARK MODE
+        const btnToggle = document.getElementById('mode-toggle');
+        const body = document.body;
+        if (localStorage.getItem('theme') === 'light') { body.classList.add('light-mode'); btnToggle.innerText = "☀️"; }
+        btnToggle.addEventListener('click', () => {
+            body.classList.toggle('light-mode');
+            const isLight = body.classList.contains('light-mode');
+            btnToggle.innerText = isLight ? "☀️" : "🌙";
+            localStorage.setItem('theme', isLight ? 'light' : 'dark');
+        });
+
+        // CLOCK
+        function updateTime() {
+            document.getElementById('jam-zane').innerText = new Date().toLocaleTimeString('id-ID', {hour: '2-digit', minute: '2-digit', second: '2-digit'});
+        }
+        setInterval(updateTime, 1000);
+
+        // COUNTER
+        function animateCount(id, target) {
+            let current = 0; const element = document.getElementById(id);
+            const timer = setInterval(() => {
+                current += Math.ceil(target / 40);
+                if (current >= target) { element.innerText = target + "+"; clearInterval(timer); }
+                else { element.innerText = current; }
+            }, 30);
+        }
+
+        window.addEventListener('load', () => { type(); updateTime(); });
+
+        // MOUSE EFFECT
+        document.querySelectorAll('.box').forEach(box => {
+            box.addEventListener('mousemove', e => {
+                const rect = box.getBoundingClientRect();
+                box.style.setProperty('--x', `${e.clientX - rect.left}px`);
+                box.style.setProperty('--y', `${e.clientY - rect.top}px`);
+            });
+        });
+    </script>
+</body>
+</html>
