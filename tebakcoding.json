@@ -1,0 +1,1111 @@
+[
+  {
+    "id": 1,
+    "question": "Apa itu HTML?",
+    "options": {
+      "A": "Bahasa pemrograman",
+      "B": "Bahasa markup",
+      "C": "Database",
+      "D": "Framework"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "question": "Fungsi CSS adalah?",
+    "options": {
+      "A": "Logika",
+      "B": "Struktur",
+      "C": "Tampilan",
+      "D": "Server"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 3,
+    "question": "JavaScript digunakan untuk?",
+    "options": {
+      "A": "Styling",
+      "B": "Interaksi",
+      "C": "Database",
+      "D": "Hosting"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 4,
+    "question": "Apa itu variabel?",
+    "options": {
+      "A": "Error",
+      "B": "Tempat menyimpan data",
+      "C": "API",
+      "D": "Loop"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 5,
+    "question": "Apa itu function?",
+    "options": {
+      "A": "Blok kode",
+      "B": "Data",
+      "C": "Server",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 6,
+    "question": "Apa itu loop?",
+    "options": {
+      "A": "Percabangan",
+      "B": "Perulangan",
+      "C": "Error",
+      "D": "API"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 7,
+    "question": "Array adalah?",
+    "options": {
+      "A": "Satu data",
+      "B": "Kumpulan data",
+      "C": "Server",
+      "D": "CSS"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "question": "Object berisi?",
+    "options": {
+      "A": "Key dan value",
+      "B": "Loop",
+      "C": "CSS",
+      "D": "Error"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 9,
+    "question": "Boolean berisi?",
+    "options": {
+      "A": "Angka",
+      "B": "String",
+      "C": "True atau False",
+      "D": "Object"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 10,
+    "question": "String adalah?",
+    "options": {
+      "A": "Angka",
+      "B": "Teks",
+      "C": "Array",
+      "D": "Loop"
+    },
+    "answer": "B"
+  },
+
+  {
+    "id": 11,
+    "question": "API adalah?",
+    "options": {
+      "A": "Server",
+      "B": "Penghubung sistem",
+      "C": "Loop",
+      "D": "Style"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 12,
+    "question": "JSON digunakan untuk?",
+    "options": {
+      "A": "Styling",
+      "B": "Pertukaran data",
+      "C": "Loop",
+      "D": "Server"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 13,
+    "question": "Debugging adalah?",
+    "options": {
+      "A": "Menambah bug",
+      "B": "Memperbaiki bug",
+      "C": "Loop",
+      "D": "Deploy"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 14,
+    "question": "Git adalah?",
+    "options": {
+      "A": "Database",
+      "B": "Version control",
+      "C": "Server",
+      "D": "API"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "question": "Repository adalah?",
+    "options": {
+      "A": "Tempat kode",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "CSS"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 16,
+    "question": "Commit artinya?",
+    "options": {
+      "A": "Hapus kode",
+      "B": "Simpan perubahan",
+      "C": "Error",
+      "D": "Run"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 17,
+    "question": "Push artinya?",
+    "options": {
+      "A": "Ambil kode",
+      "B": "Kirim kode",
+      "C": "Delete",
+      "D": "Run"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 18,
+    "question": "Pull artinya?",
+    "options": {
+      "A": "Ambil kode",
+      "B": "Kirim kode",
+      "C": "Loop",
+      "D": "Error"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 19,
+    "question": "Branch adalah?",
+    "options": {
+      "A": "Server",
+      "B": "Cabang kode",
+      "C": "Loop",
+      "D": "Bug"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "question": "Merge adalah?",
+    "options": {
+      "A": "Pisah kode",
+      "B": "Gabung kode",
+      "C": "Delete",
+      "D": "Error"
+    },
+    "answer": "B"
+  },
+
+  {
+    "id": 21,
+    "question": "Framework adalah?",
+    "options": {
+      "A": "Kerangka kerja",
+      "B": "Bug",
+      "C": "Server",
+      "D": "Loop"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 22,
+    "question": "Library adalah?",
+    "options": {
+      "A": "Kumpulan fungsi",
+      "B": "Error",
+      "C": "Database",
+      "D": "CSS"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 23,
+    "question": "DOM adalah?",
+    "options": {
+      "A": "Struktur halaman",
+      "B": "Loop",
+      "C": "Server",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 24,
+    "question": "Event adalah?",
+    "options": {
+      "A": "Aksi user",
+      "B": "Error",
+      "C": "Loop",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 25,
+    "question": "Callback adalah?",
+    "options": {
+      "A": "Function dalam function",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "CSS"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 26,
+    "question": "Promise digunakan untuk?",
+    "options": {
+      "A": "Sync",
+      "B": "Async",
+      "C": "Loop",
+      "D": "Error"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 27,
+    "question": "Async/Await adalah?",
+    "options": {
+      "A": "Error",
+      "B": "Async handling",
+      "C": "Loop",
+      "D": "Style"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 28,
+    "question": "Server adalah?",
+    "options": {
+      "A": "User",
+      "B": "Penyedia layanan",
+      "C": "Loop",
+      "D": "Error"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 29,
+    "question": "Client adalah?",
+    "options": {
+      "A": "Server",
+      "B": "Pengguna",
+      "C": "Loop",
+      "D": "Bug"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "question": "Database adalah?",
+    "options": {
+      "A": "Penyimpanan data",
+      "B": "Loop",
+      "C": "Error",
+      "D": "CSS"
+    },
+    "answer": "A"
+  },
+
+  {
+    "id": 31,
+    "question": "SQL adalah?",
+    "options": {
+      "A": "Query database",
+      "B": "Loop",
+      "C": "Style",
+      "D": "Bug"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 32,
+    "question": "NoSQL adalah?",
+    "options": {
+      "A": "Relasional",
+      "B": "Non-relasional",
+      "C": "Loop",
+      "D": "Bug"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 33,
+    "question": "Hosting adalah?",
+    "options": {
+      "A": "Tempat web",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 34,
+    "question": "Domain adalah?",
+    "options": {
+      "A": "Alamat web",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 35,
+    "question": "Localhost adalah?",
+    "options": {
+      "A": "Server lokal",
+      "B": "Online",
+      "C": "Loop",
+      "D": "Error"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 36,
+    "question": "Port adalah?",
+    "options": {
+      "A": "Jalur komunikasi",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 37,
+    "question": "HTTP adalah?",
+    "options": {
+      "A": "Protokol",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 38,
+    "question": "HTTPS adalah?",
+    "options": {
+      "A": "Versi aman HTTP",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Error"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 39,
+    "question": "Token adalah?",
+    "options": {
+      "A": "Data autentikasi",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 40,
+    "question": "Login adalah?",
+    "options": {
+      "A": "Masuk sistem",
+      "B": "Keluar sistem",
+      "C": "Loop",
+      "D": "Bug"
+    },
+    "answer": "A"
+  },
+
+  {
+    "id": 41,
+    "question": "Logout adalah?",
+    "options": {
+      "A": "Masuk sistem",
+      "B": "Keluar sistem",
+      "C": "Loop",
+      "D": "Bug"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 42,
+    "question": "Session adalah?",
+    "options": {
+      "A": "Data sementara",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 43,
+    "question": "Cookie adalah?",
+    "options": {
+      "A": "Data browser",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 44,
+    "question": "Encryption adalah?",
+    "options": {
+      "A": "Mengamankan data",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 45,
+    "question": "Hash adalah?",
+    "options": {
+      "A": "Enkripsi satu arah",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 46,
+    "question": "Firewall adalah?",
+    "options": {
+      "A": "Keamanan jaringan",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 47,
+    "question": "Bug adalah?",
+    "options": {
+      "A": "Error",
+      "B": "Loop",
+      "C": "Server",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 48,
+    "question": "Patch adalah?",
+    "options": {
+      "A": "Perbaikan bug",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 49,
+    "question": "Deploy adalah?",
+    "options": {
+      "A": "Menjalankan ke server",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Error"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 50,
+    "question": "Build adalah?",
+    "options": {
+      "A": "Proses kompilasi",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+
+  {
+    "id": 51,
+    "question": "Compile adalah?",
+    "options": {
+      "A": "Mengubah ke mesin",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 52,
+    "question": "Interpreter adalah?",
+    "options": {
+      "A": "Menjalankan langsung",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 53,
+    "question": "IDE adalah?",
+    "options": {
+      "A": "Editor coding",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 54,
+    "question": "Syntax adalah?",
+    "options": {
+      "A": "Aturan penulisan kode",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 55,
+    "question": "Logic adalah?",
+    "options": {
+      "A": "Alur berpikir",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 56,
+    "question": "Algoritma adalah?",
+    "options": {
+      "A": "Langkah penyelesaian",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 57,
+    "question": "Recursion adalah?",
+    "options": {
+      "A": "Function memanggil dirinya",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 58,
+    "question": "Class adalah?",
+    "options": {
+      "A": "Blueprint object",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 59,
+    "question": "OOP adalah?",
+    "options": {
+      "A": "Pemrograman berbasis objek",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 60,
+    "question": "Inheritance adalah?",
+    "options": {
+      "A": "Pewarisan sifat",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+
+  {
+    "id": 61,
+    "question": "Encapsulation adalah?",
+    "options": {
+      "A": "Menyembunyikan data",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 62,
+    "question": "Polymorphism adalah?",
+    "options": {
+      "A": "Banyak bentuk",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 63,
+    "question": "Abstraction adalah?",
+    "options": {
+      "A": "Menyederhanakan kompleksitas",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 64,
+    "question": "REST API adalah?",
+    "options": {
+      "A": "API berbasis HTTP",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 65,
+    "question": "Endpoint adalah?",
+    "options": {
+      "A": "URL API",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 66,
+    "question": "Request adalah?",
+    "options": {
+      "A": "Permintaan data",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 67,
+    "question": "Response adalah?",
+    "options": {
+      "A": "Balasan server",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 68,
+    "question": "Status code 200 berarti?",
+    "options": {
+      "A": "Berhasil",
+      "B": "Error",
+      "C": "Loop",
+      "D": "Bug"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 69,
+    "question": "Status code 404 berarti?",
+    "options": {
+      "A": "Tidak ditemukan",
+      "B": "Berhasil",
+      "C": "Loop",
+      "D": "Bug"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 70,
+    "question": "Middleware adalah?",
+    "options": {
+      "A": "Perantara request",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+
+  {
+    "id": 71,
+    "question": "Authentication adalah?",
+    "options": {
+      "A": "Verifikasi user",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 72,
+    "question": "Authorization adalah?",
+    "options": {
+      "A": "Hak akses user",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 73,
+    "question": "Caching adalah?",
+    "options": {
+      "A": "Menyimpan sementara",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 74,
+    "question": "CDN adalah?",
+    "options": {
+      "A": "Distribusi konten",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 75,
+    "question": "Latency adalah?",
+    "options": {
+      "A": "Waktu respon",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 76,
+    "question": "Bandwidth adalah?",
+    "options": {
+      "A": "Kapasitas data",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 77,
+    "question": "Load balancing adalah?",
+    "options": {
+      "A": "Membagi beban",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 78,
+    "question": "Microservice adalah?",
+    "options": {
+      "A": "Layanan kecil",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 79,
+    "question": "Monolith adalah?",
+    "options": {
+      "A": "Satu sistem besar",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 80,
+    "question": "Docker adalah?",
+    "options": {
+      "A": "Container aplikasi",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+
+  {
+    "id": 81,
+    "question": "Cloud adalah?",
+    "options": {
+      "A": "Server online",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 82,
+    "question": "AI adalah?",
+    "options": {
+      "A": "Kecerdasan buatan",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 83,
+    "question": "Machine Learning adalah?",
+    "options": {
+      "A": "Belajar dari data",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 84,
+    "question": "Neural Network adalah?",
+    "options": {
+      "A": "Model AI",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 85,
+    "question": "Dataset adalah?",
+    "options": {
+      "A": "Kumpulan data",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 86,
+    "question": "Training adalah?",
+    "options": {
+      "A": "Melatih model",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 87,
+    "question": "Testing adalah?",
+    "options": {
+      "A": "Menguji model",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 88,
+    "question": "Overfitting adalah?",
+    "options": {
+      "A": "Terlalu spesifik",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 89,
+    "question": "Underfitting adalah?",
+    "options": {
+      "A": "Kurang belajar",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 90,
+    "question": "Deployment AI adalah?",
+    "options": {
+      "A": "Menggunakan model",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+
+  {
+    "id": 91,
+    "question": "Automation adalah?",
+    "options": {
+      "A": "Otomatisasi tugas",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 92,
+    "question": "Frontend adalah?",
+    "options": {
+      "A": "Tampilan",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 93,
+    "question": "Backend adalah?",
+    "options": {
+      "A": "Logika server",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 94,
+    "question": "Fullstack adalah?",
+    "options": {
+      "A": "Frontend dan Backend",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 95,
+    "question": "Error syntax adalah?",
+    "options": {
+      "A": "Kesalahan penulisan",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 96,
+    "question": "Runtime error adalah?",
+    "options": {
+      "A": "Error saat jalan",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 97,
+    "question": "Logical error adalah?",
+    "options": {
+      "A": "Salah logika",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 98,
+    "question": "Compiler error adalah?",
+    "options": {
+      "A": "Gagal compile",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "API"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 99,
+    "question": "Semicolon di JS berfungsi untuk?",
+    "options": {
+      "A": "Akhir statement",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Style"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 100,
+    "question": "Programmer adalah?",
+    "options": {
+      "A": "Orang yang ngoding",
+      "B": "Loop",
+      "C": "Bug",
+      "D": "Server"
+    },
+    "answer": "A"
+  }
+      ]
