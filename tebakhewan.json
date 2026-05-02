@@ -1,0 +1,449 @@
+[
+  {
+    "id": 1,
+    "question": "Aku hewan berkaki empat, suka menggonggong. Siapa aku?",
+    "options": {
+      "A": "Kucing",
+      "B": "Anjing",
+      "C": "Sapi",
+      "D": "Kuda"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "question": "Aku punya belalai panjang. Siapa aku?",
+    "options": {
+      "A": "Gajah",
+      "B": "Badak",
+      "C": "Kuda",
+      "D": "Singa"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 3,
+    "question": "Aku suka memanjat pohon dan makan pisang. Siapa aku?",
+    "options": {
+      "A": "Kucing",
+      "B": "Sapi",
+      "C": "Monyet",
+      "D": "Harimau"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 4,
+    "question": "Aku hidup di laut dan punya delapan kaki. Siapa aku?",
+    "options": {
+      "A": "Cumi-cumi",
+      "B": "Gurita",
+      "C": "Ikan",
+      "D": "Paus"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 5,
+    "question": "Aku hewan tercepat di darat. Siapa aku?",
+    "options": {
+      "A": "Kuda",
+      "B": "Singa",
+      "C": "Cheetah",
+      "D": "Serigala"
+    },
+    "answer": "C"
+  },
+
+  {
+    "id": 6,
+    "question": "Aku suka tidur dan mengeong. Siapa aku?",
+    "options": {
+      "A": "Kucing",
+      "B": "Anjing",
+      "C": "Kambing",
+      "D": "Ayam"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 7,
+    "question": "Aku hidup di air dan bernapas dengan insang. Siapa aku?",
+    "options": {
+      "A": "Katak",
+      "B": "Ikan",
+      "C": "Buaya",
+      "D": "Ular"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "question": "Aku punya cangkang dan berjalan lambat. Siapa aku?",
+    "options": {
+      "A": "Siput",
+      "B": "Kura-kura",
+      "C": "Kepiting",
+      "D": "Kerang"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 9,
+    "question": "Aku hewan malam yang bisa terbang. Siapa aku?",
+    "options": {
+      "A": "Burung",
+      "B": "Kelelawar",
+      "C": "Elang",
+      "D": "Ayam"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "question": "Aku punya surai dan disebut raja hutan. Siapa aku?",
+    "options": {
+      "A": "Harimau",
+      "B": "Singa",
+      "C": "Serigala",
+      "D": "Beruang"
+    },
+    "answer": "B"
+  },
+
+  {
+    "id": 11,
+    "question": "Aku bisa berubah warna untuk kamuflase. Siapa aku?",
+    "options": {
+      "A": "Ular",
+      "B": "Bunglon",
+      "C": "Kadal",
+      "D": "Katak"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 12,
+    "question": "Aku hewan besar di laut dan menyemprotkan air. Siapa aku?",
+    "options": {
+      "A": "Paus",
+      "B": "Hiu",
+      "C": "Lumba-lumba",
+      "D": "Gurita"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 13,
+    "question": "Aku punya leher panjang sekali. Siapa aku?",
+    "options": {
+      "A": "Zebra",
+      "B": "Kuda",
+      "C": "Jerapah",
+      "D": "Sapi"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 14,
+    "question": "Aku hewan belang hitam putih. Siapa aku?",
+    "options": {
+      "A": "Harimau",
+      "B": "Zebra",
+      "C": "Kuda",
+      "D": "Panda"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "question": "Aku suka melompat dan punya kantong di perut. Siapa aku?",
+    "options": {
+      "A": "Kelinci",
+      "B": "Kangguru",
+      "C": "Katak",
+      "D": "Rusa"
+    },
+    "answer": "B"
+  },
+
+  {
+    "id": 16,
+    "question": "Aku hewan laut yang pintar dan suka bermain. Siapa aku?",
+    "options": {
+      "A": "Paus",
+      "B": "Hiu",
+      "C": "Lumba-lumba",
+      "D": "Gurita"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 17,
+    "question": "Aku punya capit dan berjalan menyamping. Siapa aku?",
+    "options": {
+      "A": "Udang",
+      "B": "Kepiting",
+      "C": "Lobster",
+      "D": "Kerang"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 18,
+    "question": "Aku burung yang tidak bisa terbang dan tinggal di es. Siapa aku?",
+    "options": {
+      "A": "Ayam",
+      "B": "Bebek",
+      "C": "Pinguin",
+      "D": "Angsa"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 19,
+    "question": "Aku punya taring dan hidup di hutan, suka mengaum. Siapa aku?",
+    "options": {
+      "A": "Singa",
+      "B": "Harimau",
+      "C": "Serigala",
+      "D": "Anjing"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "question": "Aku hewan kecil yang suka menggigit dan hidup berkoloni. Siapa aku?",
+    "options": {
+      "A": "Semut",
+      "B": "Lalat",
+      "C": "Nyamuk",
+      "D": "Lebah"
+    },
+    "answer": "A"
+  },
+
+  {
+    "id": 21,
+    "question": "Aku hewan bertanduk yang sering jadi hewan ternak. Siapa aku?",
+    "options": {
+      "A": "Kuda",
+      "B": "Sapi",
+      "C": "Kucing",
+      "D": "Ayam"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 22,
+    "question": "Aku hewan yang melata tanpa kaki. Siapa aku?",
+    "options": {
+      "A": "Kadal",
+      "B": "Ular",
+      "C": "Katak",
+      "D": "Siput"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 23,
+    "question": "Aku hewan berbulu yang suka wortel. Siapa aku?",
+    "options": {
+      "A": "Kelinci",
+      "B": "Kucing",
+      "C": "Anjing",
+      "D": "Tikus"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 24,
+    "question": "Aku hewan yang bisa terbang tinggi dan punya paruh tajam. Siapa aku?",
+    "options": {
+      "A": "Ayam",
+      "B": "Bebek",
+      "C": "Elang",
+      "D": "Merpati"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 25,
+    "question": "Aku hewan yang suka madu dan bersarang di pohon. Siapa aku?",
+    "options": {
+      "A": "Semut",
+      "B": "Lebah",
+      "C": "Lalat",
+      "D": "Nyamuk"
+    },
+    "answer": "B"
+  },
+
+  {
+    "id": 26,
+    "question": "Aku hewan besar berbulu tebal di daerah dingin. Siapa aku?",
+    "options": {
+      "A": "Beruang",
+      "B": "Singa",
+      "C": "Serigala",
+      "D": "Kucing"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 27,
+    "question": "Aku hewan kecil yang bisa melompat dan hidup di air dan darat. Siapa aku?",
+    "options": {
+      "A": "Katak",
+      "B": "Ular",
+      "C": "Kadal",
+      "D": "Siput"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 28,
+    "question": "Aku hewan yang sering dipakai untuk berkuda. Siapa aku?",
+    "options": {
+      "A": "Sapi",
+      "B": "Kuda",
+      "C": "Kambing",
+      "D": "Rusa"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 29,
+    "question": "Aku hewan yang suka mencuri keju di cerita. Siapa aku?",
+    "options": {
+      "A": "Kucing",
+      "B": "Tikus",
+      "C": "Anjing",
+      "D": "Kelinci"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "question": "Aku hewan laut yang sangat berbahaya dengan gigi tajam. Siapa aku?",
+    "options": {
+      "A": "Paus",
+      "B": "Lumba-lumba",
+      "C": "Hiu",
+      "D": "Ikan"
+    },
+    "answer": "C"
+  },
+
+  {
+    "id": 31,
+    "question": "Aku burung yang sering jadi simbol cinta. Siapa aku?",
+    "options": {
+      "A": "Elang",
+      "B": "Merpati",
+      "C": "Ayam",
+      "D": "Bebek"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 32,
+    "question": "Aku hewan yang punya tanduk dan suka menanduk. Siapa aku?",
+    "options": {
+      "A": "Sapi",
+      "B": "Kambing",
+      "C": "Kuda",
+      "D": "Rusa"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 33,
+    "question": "Aku hewan yang hidup di kutub dan berwarna putih. Siapa aku?",
+    "options": {
+      "A": "Beruang kutub",
+      "B": "Singa",
+      "C": "Serigala",
+      "D": "Kucing"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 34,
+    "question": "Aku hewan kecil yang menghasilkan sutra. Siapa aku?",
+    "options": {
+      "A": "Laba-laba",
+      "B": "Ulat sutra",
+      "C": "Semut",
+      "D": "Lebah"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 35,
+    "question": "Aku hewan yang suka hidup di lumpur dan menguak. Siapa aku?",
+    "options": {
+      "A": "Sapi",
+      "B": "Babi",
+      "C": "Kuda",
+      "D": "Kambing"
+    },
+    "answer": "B"
+  },
+
+  {
+    "id": 36,
+    "question": "Aku hewan yang punya sayap dan bisa berenang. Siapa aku?",
+    "options": {
+      "A": "Ayam",
+      "B": "Bebek",
+      "C": "Elang",
+      "D": "Burung hantu"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 37,
+    "question": "Aku hewan malam dengan mata besar. Siapa aku?",
+    "options": {
+      "A": "Burung hantu",
+      "B": "Elang",
+      "C": "Ayam",
+      "D": "Merpati"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 38,
+    "question": "Aku hewan laut yang bentuknya seperti bintang. Siapa aku?",
+    "options": {
+      "A": "Ubur-ubur",
+      "B": "Bintang laut",
+      "C": "Kerang",
+      "D": "Cumi-cumi"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 39,
+    "question": "Aku hewan yang bisa menyengat dan punya sarang. Siapa aku?",
+    "options": {
+      "A": "Lalat",
+      "B": "Nyamuk",
+      "C": "Lebah",
+      "D": "Semut"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 40,
+    "question": "Aku hewan yang punya cakar tajam dan suka berburu di malam hari. Siapa aku?",
+    "options": {
+      "A": "Kucing",
+      "B": "Harimau",
+      "C": "Singa",
+      "D": "Serigala"
+    },
+    "answer": "D"
+  }
+    ]
