@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "soal": "Makanan khas Indonesia yang digoreng dengan kecap dan bumbu.",
+    "jawaban": "nasi goreng",
+    "hint": "Sering dimakan malam hari.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "soal": "Makanan khas Palembang berbahan ikan dan sagu.",
+    "jawaban": "pempek",
+    "hint": "Dimakan dengan kuah cuko.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "soal": "Makanan Jepang berbentuk gulungan nasi dan rumput laut.",
+    "jawaban": "sushi",
+    "hint": "Kadang berisi salmon mentah.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "soal": "Makanan Italia berbentuk lingkaran dengan banyak topping.",
+    "jawaban": "pizza",
+    "hint": "Ada topping pepperoni.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "soal": "Makanan Padang dari daging sapi dimasak lama.",
+    "jawaban": "rendang",
+    "hint": "Pernah viral sebagai makanan terenak.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "soal": "Makanan khas Bandung dari tepung tapioka.",
+    "jawaban": "cilok",
+    "hint": "Biasanya ditusuk.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "soal": "Fast food berupa daging di antara dua roti.",
+    "jawaban": "burger",
+    "hint": "Sering dijual restoran cepat saji.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "soal": "Makanan Korea dari fermentasi sawi pedas.",
+    "jawaban": "kimchi",
+    "hint": "Sering muncul di drakor.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 9,
+    "soal": "Mi instan paling terkenal di Indonesia.",
+    "jawaban": "indomie",
+    "hint": "Mi gorengnya legendaris.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "soal": "Makanan khas Yogyakarta berbahan nangka muda.",
+    "jawaban": "gudeg",
+    "hint": "Rasanya manis.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 11,
+    "soal": "Makanan kecil berbentuk bulan sabit isi sayur atau daging.",
+    "jawaban": "pastel",
+    "hint": "Kulitnya renyah.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "soal": "Makanan Betawi dengan kuah santan.",
+    "jawaban": "soto betawi",
+    "hint": "Biasanya pakai emping.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 13,
+    "soal": "Makanan Manado yang terkenal pedas.",
+    "jawaban": "rica rica",
+    "hint": "Biasanya ayam atau ikan.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 14,
+    "soal": "Makanan dari tepung yang dipanggang untuk sarapan.",
+    "jawaban": "roti",
+    "hint": "Bisa dioles mentega.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "soal": "Makanan khas Betawi dimasak dengan arang.",
+    "jawaban": "kerak telor",
+    "hint": "Sering ada di festival budaya.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 16,
+    "soal": "Sayur mentah khas Sunda dimakan dengan sambal.",
+    "jawaban": "lalapan",
+    "hint": "Temannya ikan asin.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "soal": "Sup daging khas Makassar berkuah hitam.",
+    "jawaban": "coto makassar",
+    "hint": "Pakai kacang tanah sangrai.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 18,
+    "soal": "Mi Jepang dengan kuah kaldu.",
+    "jawaban": "ramen",
+    "hint": "Naruto suka makan ini.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "soal": "Makanan tipis bundar biasa diberi sirup atau coklat.",
+    "jawaban": "pancake",
+    "hint": "Sering buat breakfast.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 20,
+    "soal": "Makanan Surabaya berisi lontong dan tauge.",
+    "jawaban": "lontong balap",
+    "hint": "Namanya ada unsur kendaraan.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 21,
+    "soal": "Camilan tipis renyah dari singkong.",
+    "jawaban": "keripik",
+    "hint": "Banyak rasa pedas.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "soal": "Makanan Bali berupa ayam berbumbu khas.",
+    "jawaban": "ayam betutu",
+    "hint": "Dimasak lama dengan daun.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 23,
+    "soal": "Makanan Timur Tengah dibungkus tortilla.",
+    "jawaban": "kebab",
+    "hint": "Isi daging dan sayur.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "soal": "Sate khas Indonesia dengan bumbu kacang.",
+    "jawaban": "sate ayam",
+    "hint": "Dibakar di atas arang.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "soal": "Mi khas Aceh dengan rempah kuat.",
+    "jawaban": "mie aceh",
+    "hint": "Biasanya pedas.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 26,
+    "soal": "Makanan Semarang isi rebung.",
+    "jawaban": "lumpia",
+    "hint": "Digulung dengan kulit tipis.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 27,
+    "soal": "Sate terkenal dari Madura.",
+    "jawaban": "sate madura",
+    "hint": "Gerobaknya ada dimana-mana.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 28,
+    "soal": "Makanan penutup dingin dan manis.",
+    "jawaban": "es krim",
+    "hint": "Meleleh kalau kena panas.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 29,
+    "soal": "Makanan berkuah khas Jawa Timur dari rawon.",
+    "jawaban": "rawon",
+    "hint": "Kuahnya hitam.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "soal": "Makanan khas Jakarta dari ketan dan telur.",
+    "jawaban": "kerak telor",
+    "hint": "Dimasak pakai arang.",
+    "difficulty": "medium"
+  }
+]
