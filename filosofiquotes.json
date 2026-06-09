@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "philosopher": "Socrates",
+    "school": "Klasik Yunani",
+    "original": "An unexamined life is not worth living.",
+    "indonesian": "Hidup yang tidak diuji dan tidak direfleksikan adalah hidup yang tidak layak untuk dijalani.",
+    "context": "Diucapkan Socrates saat persidangan kematiannya di Athena, menegaskan pentingnya berpikir kritis atas keberadaan diri."
+  },
+  {
+    "id": 2,
+    "philosopher": "Marcus Aurelius",
+    "school": "Stoikisme",
+    "original": "You have power over your mind - not outside events. Realize this, and you will find strength.",
+    "indonesian": "Kamu memiliki kuasa penuh atas pikiranmu - bukan atas peristiwa-peristiwa di luar sana. Sadarilah ini, dan kamu akan menemukan kekuatan sejati.",
+    "context": "Ditulis dalam buku catatan pribadinya 'Meditations' saat memimpin kekaisaran Romawi di tengah perang dan wabah."
+  },
+  {
+    "id": 3,
+    "philosopher": "Seneca",
+    "school": "Stoikisme",
+    "original": "We suffer more often in imagination than in reality.",
+    "indonesian": "Kita lebih sering menderita di dalam imajinasi dan kekhawatiran kita sendiri daripada dalam kenyataan yang sebenarnya.",
+    "context": "Dari surat-surat moralnya kepada Lucilius, menasihati agar manusia tidak menyiksa diri dengan kecemasan masa depan."
+  },
+  {
+    "id": 4,
+    "philosopher": "Epictetus",
+    "school": "Stoikisme",
+    "original": "It's not what happens to you, but how you react to it that matters.",
+    "indonesian": "Bukan apa yang terjadi padamu yang penting, melainkan bagaimana caramu bereaksi terhadap hal tersebut.",
+    "context": "Prinsip dasar dikotomi kendali Stoik dari seorang mantan budak yang menjadi guru filsafat besar."
+  },
+  {
+    "id": 5,
+    "philosopher": "Friedrich Nietzsche",
+    "school": "Eksistensialisme / Nihilisme",
+    "original": "He who has a why to live for can bear almost any how.",
+    "indonesian": "Ia yang memiliki alasan kuat untuk hidup akan mampu menanggung hampir semua cara dan penderitaan untuk bertahan.",
+    "context": "Pernyataan Nietzsche tentang pentingnya menemukan makna hidup mandiri setelah menolak nilai-nilai dogma tradisional."
+  },
+  {
+    "id": 6,
+    "philosopher": "Albert Camus",
+    "school": "Absurdisme",
+    "original": "In the midst of winter, I found there was, within me, an invincible summer.",
+    "indonesian": "Di tengah dinginnya musim dingin, aku akhirnya menemukan bahwa di dalam diriku ada musim panas yang tak terkalahkan.",
+    "context": "Esai filosofis Camus mengenai ketegaran jiwa manusia yang menolak menyerah pada kekosongan dunia yang absurd."
+  },
+  {
+    "id": 7,
+    "philosopher": "Jean-Paul Sartre",
+    "school": "Eksistensialisme",
+    "original": "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
+    "indonesian": "Manusia dikutuk untuk bebas; karena begitu dilemparkan ke dunia, dia memikul tanggung jawab penuh atas semua hal yang dilakukannya.",
+    "context": "Konsep kebebasan radikal Sartre yang menegaskan bahwa tidak ada takdir bawaan; manusia yang melukis jalannya sendiri."
+  },
+  {
+    "id": 8,
+    "philosopher": "René Descartes",
+    "school": "Rasionalisme",
+    "original": "Cogito, ergo sum.",
+    "indonesian": "Aku berpikir, maka aku ada.",
+    "context": "Metode keraguan radikal Descartes untuk membuktikan bahwa satu-satunya hal yang tidak bisa diragukan adalah eksistensi pikirannya sendiri."
+  },
+  {
+    "id": 9,
+    "philosopher": "Aristotle",
+    "school": "Klasik Yunani",
+    "original": "Knowing yourself is the beginning of all wisdom.",
+    "indonesian": "Mengenal diri sendiri adalah awal dari segala bentuk kebijaksanaan.",
+    "context": "Prinsip etika Aristotelian tentang pengembangan karakter dan kebajikan moral (Virtue Ethics)."
+  },
+  {
+    "id": 10,
+    "philosopher": "Plato",
+    "school": "Klasik Yunani",
+    "original": "Wise men speak because they have something to say; fools because they have to say something.",
+    "indonesian": "Orang bijak berbicara karena mereka memiliki sesuatu yang berharga untuk dikatakan; orang bodoh berbicara hanya karena mereka merasa harus mengatakan sesuatu.",
+    "context": "Kritik Plato terhadap para sofis dan retorika kosong yang tidak mencari kebenaran hakiki."
+  },
+  {
+    "id": 11,
+    "philosopher": "Lao Tzu",
+    "school": "Taoisme",
+    "original": "The journey of a thousand miles begins with one step.",
+    "indonesian": "Perjalanan seribu mil selalu dimulai dengan satu langkah pertama.",
+    "context": "Kutipan dari Tao Te Ching tentang kekuatan kesabaran, kesederhanaan, dan konsistensi."
+  },
+  {
+    "id": 12,
+    "philosopher": "Siddhartha Gautama",
+    "school": "Filsafat Buddhis",
+    "original": "The mind is everything. What you think you become.",
+    "indonesian": "Pikiran adalah segalanya. Apa yang kamu pikirkan, itulah yang akan membentuk dirimu.",
+    "context": "Ajaran tentang hukum sebab-akibat pikiran (karma) dalam pembentukan realitas hidup manusia."
+  },
+  {
+    "id": 13,
+    "philosopher": "Arthur Schopenhauer",
+    "school": "Pessimisme",
+    "original": "Compassion is the basis of morality.",
+    "indonesian": "Belas kasih dan rasa iba adalah fondasi utama dari seluruh moralitas manusia.",
+    "context": "Filsafat Schopenhauer yang memandang bahwa penderitaan dunia hanya bisa diringankan jika manusia saling berempati."
+  },
+  {
+    "id": 14,
+    "philosopher": "Immanuel Kant",
+    "school": "Idealisme / Deontologi",
+    "original": "Science is organized knowledge. Wisdom is organized life.",
+    "indonesian": "Sains adalah pengetahuan yang terorganisir. Kebijaksanaan adalah kehidupan yang terorganisir.",
+    "context": "Pembedaan Kant antara mengumpulkan informasi teknis (sains) dan menerapkan moralitas dalam hidup (kebijaksanaan)."
+  },
+  {
+    "id": 15,
+    "philosopher": "Niccolò Machiavelli",
+    "school": "Realisme Politik",
+    "original": "It is much safer to be feared than loved, if you cannot be both.",
+    "indonesian": "Jauh lebih aman untuk ditakuti daripada dicintai, jika kamu tidak bisa mendapatkan kedua-duanya.",
+    "context": "Dari bukunya 'Il Principe' (The Prince), analisis pragmatis tentang kekuasaan dan kepemimpinan politik."
+  },
+  {
+    "id": 16,
+    "philosopher": "Søren Kierkegaard",
+    "school": "Eksistensialisme Kristen",
+    "original": "Life can only be understood backwards; but it must be lived forwards.",
+    "indonesian": "Hidup hanya bisa dipahami dengan melihat ke belakang; namun hidup harus dijalani dengan terus melangkah ke depan.",
+    "context": "Kierkegaard menjelaskan paradoks eksistensi manusia yang sering kali baru menyadari makna peristiwa setelah melewatinya."
+  },
+  {
+    "id": 17,
+    "philosopher": "Diogenes",
+    "school": "Sinisme",
+    "original": "Stand out of my sunlight.",
+    "indonesian": "Menyingkirlah dari sinarku (Jangan menghalangi matahari yang menyinari diriku).",
+    "context": "Jawaban berani Diogenes si gelandangan cerdas saat ditawari hadiah apa saja oleh penguasa dunia, Alexander Agung."
+  },
+  {
+    "id": 18,
+    "philosopher": "Karl Marx",
+    "school": "Marxisme",
+    "original": "The philosophers have only interpreted the world, in various ways. The point, however, is to change it.",
+    "indonesian": "Para filsuf sejauh ini hanya menafsirkan dunia dengan berbagai cara. Namun, poin yang terpenting adalah bagaimana mengubah dunia tersebut.",
+    "context": "Tesis ke-11 tentang Feuerbach, menyerukan agar filsafat tidak berhenti sebagai teori, melainkan aksi nyata."
+  },
+  {
+    "id": 19,
+    "philosopher": "Thomas Hobbes",
+    "school": "Kontrak Sosial",
+    "original": "The life of man is solitary, poor, nasty, brutish, and short.",
+    "indonesian": "Tanpa hukum dan negara, hidup manusia akan sunyi, miskin, tidak menyenangkan, kasar, dan singkat.",
+    "context": "Dari buku 'Leviathan' mengenai keadaan alamiah manusia (state of nature) yang selalu berperang satu sama lain sebelum ada hukum."
+  },
+  {
+    "id": 20,
+    "philosopher": "Baruch Spinoza",
+    "school": "Rasionalisme / Panteisme",
+    "original": "If you want the present to be different from the past, study the past.",
+    "indonesian": "Jika kamu menginginkan masa kinimu berbeda dari masa lalumu, pelajari dan pahamilah sejarah masa lalu tersebut.",
+    "context": "Spinoza menekankan pentingnya memahami hukum sebab-akibat historis untuk mengubah nasib hidup."
+  },
+  {
+    "id": 21,
+    "philosopher": "John Locke",
+    "school": "Empirisme",
+    "original": "New opinions are always suspected, and usually opposed, without any other reason but because they are not already common.",
+    "indonesian": "Pendapat baru selalu dicurigai, dan biasanya ditentang, tanpa alasan lain kecuali karena pendapat tersebut belum umum terdengar.",
+    "context": "Esai Locke mengenai pemahaman manusia tentang bagaimana kebenaran sering kali ditolak hanya karena kebiasaan lama."
+  },
+  {
+    "id": 22,
+    "philosopher": "David Hume",
+    "school": "Empirisme / Skeptisisme",
+    "original": "Reason is, and ought only to be the slave of the passions.",
+    "indonesian": "Akal budi adalah, dan memang seharusnya hanya menjadi budak dari hasrat dan emosi manusia.",
+    "context": "Argumen Hume bahwa logika murni tidak pernah bisa menggerakkan manusia untuk bertindak tanpa dorongan emosional."
+  },
+  {
+    "id": 23,
+    "philosopher": "Confucius",
+    "school": "Konfusianisme",
+    "original": "The man who moves a mountain begins by carrying away small stones.",
+    "indonesian": "Orang yang berhasil memindahkan gunung memulainya dengan membawa batu-batu kecil terlebih dahulu.",
+    "context": "Nasihat moral Tiongkok klasik tentang pentingnya disiplin, ketekunan, dan langkah-langkah kecil yang konsisten."
+  },
+  {
+    "id": 24,
+    "philosopher": "Sun Tzu",
+    "school": "Filsafat Militer / Strategi",
+    "original": "The supreme art of war is to subdue the enemy without fighting.",
+    "indonesian": "Seni tertinggi dari peperangan adalah menundukkan musuhmu tanpa harus melakukan pertempuran fisik.",
+    "context": "Dari buku legendaris 'The Art of War' mengenai keunggulan diplomasi, taktik mental, dan kecerdasan dibanding kekerasan kasar."
+  },
+  {
+    "id": 25,
+    "philosopher": "Simone de Beauvoir",
+    "school": "Eksistensialisme / Feminisme",
+    "original": "One is not born, but rather becomes, a woman.",
+    "indonesian": "Seseorang tidak dilahirkan sebagai wanita, melainkan dia dibentuk dan dikondisikan menjadi seorang wanita oleh masyarakat.",
+    "context": "Analisis mendalam Beauvoir dalam 'The Second Sex' mengenai konstruksi sosial gender yang membatasi potensi manusia."
+  },
+  {
+    "id": 26,
+    "philosopher": "Gilles Deleuze",
+    "school": "Post-Strukturalisme",
+    "original": "There is no need to fear or hope, but only to look for new weapons.",
+    "indonesian": "Tidak perlu merasa takut ataupun berharap secara berlebihan, tugas kita hanyalah mencari senjata-senjata baru (untuk bertahan dan melawan).",
+    "context": "Gagasan Deleuze mengenai cara menghadapi struktur kekuasaan modern yang terus mengontrol hidup manusia."
+  },
+  {
+    "id": 27,
+    "philosopher": "Michel Foucault",
+    "school": "Post-Modernisme",
+    "original": "Where there is power, there is resistance.",
+    "indonesian": "Di mana pun ada kekuasaan yang menindas, di situ pasti akan selalu lahir perlawanan.",
+    "context": "Analisis Foucault tentang relasi kuasa dalam institusi sosial, penjara, medis, dan kehidupan sehari-hari."
+  },
+  {
+    "id": 28,
+    "philosopher": "Zeno of Citium",
+    "school": "Stoikisme Awal",
+    "original": "We have two ears and one mouth, so we should listen more than we speak.",
+    "indonesian": "Kita diberikan dua buah telinga dan hanya satu buah mulut, agar kita lebih banyak mendengarkan daripada berbicara.",
+    "context": "Pesan pendiri mazhab Stoikisme mengenai pentingnya kerendahan hati dalam menyerap pengetahuan di sekitar kita."
+  },
+  {
+    "id": 29,
+    "philosopher": "Emile Cioran",
+    "school": "Pessimisme Radikal",
+    "original": "Only optimists commit suicide, optimists who no longer succeed in being optimists.",
+    "indonesian": "Hanya orang optimis yang melakukan bunuh diri, yaitu orang optimis yang tidak lagi berhasil mempertahankan keoptimisannya.",
+    "context": "Pandangan tajam Cioran tentang ironi ekspektasi tinggi manusia yang kerap kali menjadi bumerang bagi kesehatan mental mereka."
+  },
+  {
+    "id": 30,
+    "philosopher": "Heraclitus",
+    "school": "Pra-Socrates",
+    "original": "No man ever steps in the same river twice, for it's not the same river and he's not the same man.",
+    "indonesian": "Tidak ada orang yang pernah melangkah di sungai yang sama dua kali, karena itu bukan lagi air sungai yang sama dan dia bukan lagi orang yang sama.",
+    "context": "Doktrin perubahan konstan (Panta Rhei), menegaskan bahwa segala sesuatu di alam semesta ini selalu mengalir dan berubah."
+  }
+]
